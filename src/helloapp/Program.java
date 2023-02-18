@@ -49,6 +49,15 @@ public class Program {
 				  
 			    System.out.println(i);
 			}
+		    
+		    List<Integer> list4 = new ArrayList<Integer>(list3){};
+		    
+            System.out.println("Четвертый массив : ");
+		    
+		    for(Integer  i : list4){
+				  
+			    System.out.println(i);
+			}
 		   
 	  }
 }
